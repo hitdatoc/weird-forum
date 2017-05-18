@@ -1,0 +1,10 @@
+test:
+  override:
+    - echo "test"
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: weird-forum
+
