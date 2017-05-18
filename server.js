@@ -15,8 +15,11 @@ app.get('/index.js', function(request, response){
 	response.sendFile(__dirname + '/index.js')
 })
 
-//Bootstrap
+app.get('/favicon.ico', function(request, response){
+	response.sendFile(__dirname + '/favicon.ico')
+})
 
+//Bootstrap
 app.get('/css/bootstrap.min.css', function(request, response){
 	response.sendFile(__dirname + '/css/bootstrap.min.css')
 })
