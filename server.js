@@ -25,8 +25,6 @@ app.get('/css/bootstrap.min.css', function(request, response){
 })
 
 
-
-
 http.listen(process.env.PORT || 8888)
 
 if(process.env.PORT){
